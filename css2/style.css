@@ -1,0 +1,38 @@
+.card8{
+    width: 145px;
+    height: 200px ;
+    background-image: url(../css2/карты.png);
+    background-position: -0px -1192px;
+}
+
+.cardQ{
+    width: 145px;
+    height: 200px ;
+    background-image: url(../css2/карты.png);
+    background-position: -570px -1790px;
+    margin-left: -4em;
+}
+
+.card9{
+    width: 145px;
+    height: 200px ;
+    background-image: url(../css2/карты.png);
+    background-position: -2px -1395px;
+    margin-left: -4em;
+}
+
+.cardA{
+    width: 145px;
+    height: 200px ;
+    background-image: url(../css2/карты.png);
+    background-position: -143px -2193px;
+    margin-left: -4em;
+}
+
+.cardJ{
+    width: 145px;
+    height: 200px ;
+    background-image: url(../css2/карты.png);
+    background-position: 0px -2379px;
+    margin-left: -4em;
+}
