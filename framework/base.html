@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <style>
+    .item{
+         margin-bottom: 10px;
+    }
+    .col-xl-3{
+        color: rgb(0, 217, 255);
+    }
+  </style>
+  <body>
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+           <div class="item"><h1 align="left">HOW-TO: Программа на Python, Часть 1</h1> </div>
+        </div>
+        <div class="col-xl-3">
+            <div class="item">
+                <ul> 
+                <li><em>Программа на Python — часть 1</em></li>
+                <li><em>Программа на Python — часть 2</em></li>
+                <li><em>Программа на Python — часть 3</em></li>  
+                </ul>
+            </div>
+         </div>
+         <div class="col-xl-9">
+            <div class="item"><h1>HOW-TO: Программа на Python, Часть 1</h1></div>
+         </div>
+         <div class="col-xl-3">
+            <div class="item">
+                <h1>Содержание</h1>
+                <br>
+                <ul>
+                    <li><ins>Наша первая программа</ins></li>
+                    <li><ins>Пример цикла For</ins></li>
+                    
+                    </ul>
+            </div>
+         </div>
+         <div class="col-xl-9">
+            <div class="item">
+                <p align="left"> Множества существующих языков программирования Python — один из самых лёгких
+                    <br>
+                 в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+                 <br>
+                 Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+                 <br>
+                обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+                <br>
+                создание консольных приложений, а в следующей — программирование графических
+                <br>
+                 интерфейсов (GUI). Давайте создадим простую программу прямо сейчас </p>
+            </div> 
+         </div>
+         <div class="col-xl-3">
+            <div class="item">
+                <h1>Наша первая программа</h1>
+            </div>
+         </div>
+         <div class="col-xl-9">
+            <div class="item">
+                <p>Наберём код в текстовом редакторе (например, в <em><strong>gedit</strong></em> ). Потом мы разберёмся, что делает каждая строка и пойдём дальше.</p>
+                <br>
+                <p>Введите эти 4 строки:</p>
+            </div>
+         </div>
+         <div class="col-xl-3">
+            <div class="item">
+                <h6>к содержанию</h6>
+            </div>
+         </div>
+         <div class="col-xl-9">
+            <div class="item">
+                <span class="badge rounded-pill text-bg-secondary">#!/usr/bin/env python</span><br>
+                <span class="badge rounded-pill text-bg-secondary">print 'Hello. I am a python program.'</span><br>
+                <span class="badge rounded-pill text-bg-secondary">name = raw_input("What is your name?")</span><br>
+                <span class="badge rounded-pill text-bg-secondary"> print "Hello there, " + name + "!"</span><br>
+                
+                <p>Это всё. Сохраните файл как <strong>hello.py</strong> hello.py в любом месте. Я предлагаю сохранить его в папке
+                    <br>
+                <strong>python_examples</strong>  в домашнем каталоге.Этот пример показывает, как просто написать 
+                <br>
+                программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+                <br>
+                этого введите в терминале</p>
+                <span class="badge rounded-pill text-bg-secondary"><p><strong><ins><em>chmod +x hello.py</em></ins></strong></p></span>
+                
+                <br>
+                
+                в папке, в которой вы сохранили программу. Теперь запустите её.
+                <br>
+                <span class="badge rounded-pill text-bg-secondary">greg@earth:~/python_examples$ ./hello.py</span><br>
+                <span class="badge rounded-pill text-bg-secondary">Hello. I am a python program.</span><br>
+                <span class="badge rounded-pill text-bg-secondary"> What is your name? Ferd Burphel</span><br>
+                <span class="badge rounded-pill text-bg-secondary">greg@earth:~/python_examples$</span><br>
+                
+                     Вот и всё.
+            </div>
+         </div>
+         <div class="col-xl-3">
+            <div class="item">
+                <h1>Пример цикла For</h1>
+            </div>
+         </div>
+         <div class="col-xl-9">
+            <div class="item">
+                <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+                    редактор и наберите следующую программу:</p>
+            </div>
+         </div>
+        <div class="col-xl-3">
+           <div class="item">
+            <h6>к содержанию</h6>
+           </div>
+        </div>
+         <div class="col-xl-9">
+            <div class="item">
+                <span class="badge rounded-pill text-bg-secondary">#!/usr/bin/env python</span><br>
+                <span class="badge rounded-pill text-bg-secondary">for cntr in range(0,10):</span><br>
+                <span class="badge rounded-pill text-bg-secondary">print cntr</span><br>
+            
+                 <i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В
+            Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+            как в других языках программирования, а отступы. </div>
+         </div>
+    </div>
+  </div>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
